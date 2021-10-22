@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+
 class TextAreaInput extends React.Component {
   constructor() {
     super();
@@ -113,6 +113,12 @@ class TextAreaInput extends React.Component {
     else submitStyle.display = "none";
     return (
       <div>
+        <div class="p-8 text-center">
+          <h1 class="text-4xl text-blue-400 font-bold">
+            Tailwind Count Characters
+          </h1>
+          <h2 class="text-2xs text-gray-500 font-semibold">-10/20/2021</h2>
+        </div>
         <form>
           <div style={editStyle}>
             <textarea
