@@ -1,0 +1,9 @@
+.background__land {
+  background-color: var(--color-secondary);
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+}
+.intro-text {
+  width: 60%;
+}

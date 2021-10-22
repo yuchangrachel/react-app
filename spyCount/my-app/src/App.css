@@ -1,0 +1,80 @@
+form {
+  margin: 10px;
+}
+
+textarea {
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  margin: 10px 0;
+  min-height: 100px;
+  padding: 10px;
+  font-size: 16px;
+}
+textarea:focus {
+  border-color: #42afe3;
+  outline: 0;
+}
+
+button {
+  border: none;
+  background: #42afe3;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border: 3px solid #42afe3;
+  font-size: 14px;
+}
+button:hover {
+  background: #fff;
+  color: #42afe3;
+  border: 3px solid #42afe3;
+}
+.submit-box {
+  position: relative;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 40px 15px 20px;
+  font-weight: 500;
+  margin: 10px 0;
+  color: #333;
+}
+.submit-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  background: #eee;
+  font-weight: 600;
+  border: 1px solid #ddd;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 5px 0 5px 0;
+  padding: 5px 12px;
+  letter-spacing: 1px;
+}
+
+.highlighted {
+  background-color: #ffeaa7;
+  color: #e17055;
+  box-shadow: -3px 0 0 #ffeaa7, 3px 0 0 #ffeaa7;
+  line-height: 1.5em;
+  letter-spacing: 4px;
+}
+
+.highlighter {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 2px rgba(black, 0.2), 0 0 15px rgba(black, 0.2);
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 4px;
+}

@@ -1,0 +1,14 @@
+/*Font*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,800&display=swap");
+
+/* Variables */
+@import url("./variables.css");
+
+/* General Styles*/
+@import url("./App.css");
+
+/* Landing page */
+@import url("./pages/LandPage/LandPage.css");
+
+/*General Title for diary operations*/
+@import url("./components/Header/GeneralTitle.css");
